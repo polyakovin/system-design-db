@@ -23,7 +23,7 @@
 - Одна мысль — один файл, без дублей.
 - Ссылки только на существующие файлы.
 - После изменений — валидация vault.
-- Перед коммитом должен быть установлен `.githooks/pre-commit`.
+- Установлены `.githooks/pre-commit` и `.githooks/post-commit`.
 
 ## Как агент работает
 
@@ -31,7 +31,8 @@
 2. Выполняй задачу минимальными порциями, каждая с проверкой.
 3. Фиксируй важные решения в [meta/decisions.md](meta/decisions.md).
 4. Запускай `python3 meta/scripts/validate.sh` после meaningful изменения.
-5. Если пользователь просит commit/push, делай atomic commit и пушь в remote.
+5. После завершения задачи — **всегда делай commit и push**. `post-commit` хук пушит автоматически, достаточно `git add -A && git commit`.
+6. Перед уходом убедись, что нет незакоммиченных изменений.
 
 ## Ограничения
 
@@ -45,7 +46,7 @@
 ## Проверки
 
 | Тип | Команда |
-|---|---|
+|-----|---------|
 | Полная проверка | `python3 meta/scripts/validate.sh` |
 | Валидация ссылок | `python3 meta/scripts/validate-vault.sh` |
 | Canonical cross-reference | `python3 meta/scripts/validate-canonical-refs.py` |
@@ -63,4 +64,3 @@
 - [System design principles](patterns/fundamentals/system-design-principles.md)
 - [Storage selection](patterns/architecture-design/storage-selection.md)
 - [Observability](patterns/production-operations/observability.md)
-
