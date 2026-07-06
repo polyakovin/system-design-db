@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Pre-commit hook for system-design-db.
+set -euo pipefail
+
+echo "Pre-commit checks (system-design-db)..."
+
+python3 meta/scripts/validate.sh
+
+echo "All checks passed"
+

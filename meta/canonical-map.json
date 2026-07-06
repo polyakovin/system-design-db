@@ -1,0 +1,110 @@
+{
+  "api-design": {
+    "name": "API design",
+    "path": "patterns/architecture-design/api-design.md"
+  },
+  "availability-and-reliability": {
+    "name": "Availability and reliability",
+    "path": "patterns/fundamentals/availability-and-reliability.md"
+  },
+  "caching-strategy": {
+    "name": "Caching strategy",
+    "path": "patterns/architecture-design/caching-strategy.md"
+  },
+  "capacity-estimation": {
+    "name": "Capacity estimation",
+    "path": "patterns/fundamentals/capacity-estimation.md"
+  },
+  "cassandra": {
+    "name": "Cassandra",
+    "path": "tools/databases/cassandra.md"
+  },
+  "consistency-models": {
+    "name": "Consistency models",
+    "path": "patterns/fundamentals/consistency-models.md"
+  },
+  "data-partitioning": {
+    "name": "Data partitioning",
+    "path": "patterns/architecture-design/data-partitioning.md"
+  },
+  "deployment-strategy": {
+    "name": "Deployment strategy",
+    "path": "patterns/production-operations/deployment-strategy.md"
+  },
+  "distributed-transactions": {
+    "name": "Distributed transactions",
+    "path": "patterns/advanced/distributed-transactions.md"
+  },
+  "grafana": {
+    "name": "Grafana",
+    "path": "tools/observability/grafana.md"
+  },
+  "incident-response": {
+    "name": "Incident response",
+    "path": "patterns/production-operations/incident-response.md"
+  },
+  "kafka": {
+    "name": "Kafka",
+    "path": "tools/messaging/kafka.md"
+  },
+  "latency-and-throughput": {
+    "name": "Latency and throughput",
+    "path": "patterns/fundamentals/latency-and-throughput.md"
+  },
+  "load-balancing": {
+    "name": "Load balancing",
+    "path": "patterns/architecture-design/load-balancing.md"
+  },
+  "mongodb": {
+    "name": "MongoDB",
+    "path": "tools/databases/mongodb.md"
+  },
+  "multi-region-architecture": {
+    "name": "Multi-region architecture",
+    "path": "patterns/advanced/multi-region-architecture.md"
+  },
+  "mysql": {
+    "name": "MySQL",
+    "path": "tools/databases/mysql.md"
+  },
+  "observability": {
+    "name": "Observability",
+    "path": "patterns/production-operations/observability.md"
+  },
+  "postgresql": {
+    "name": "PostgreSQL",
+    "path": "tools/databases/postgresql.md"
+  },
+  "prometheus": {
+    "name": "Prometheus",
+    "path": "tools/observability/prometheus.md"
+  },
+  "queues-and-streams": {
+    "name": "Queues and streams",
+    "path": "patterns/architecture-design/queues-and-streams.md"
+  },
+  "rabbitmq": {
+    "name": "RabbitMQ",
+    "path": "tools/messaging/rabbitmq.md"
+  },
+  "rate-limiting": {
+    "name": "Rate limiting",
+    "path": "patterns/architecture-design/rate-limiting.md"
+  },
+  "redis": {
+    "name": "Redis",
+    "path": "tools/caches/redis.md"
+  },
+  "replication-strategy": {
+    "name": "Replication strategy",
+    "path": "patterns/architecture-design/replication-strategy.md"
+  },
+  "storage-selection": {
+    "name": "Storage selection",
+    "path": "patterns/architecture-design/storage-selection.md"
+  },
+  "system-design-principles": {
+    "name": "System design principles",
+    "path": "patterns/fundamentals/system-design-principles.md"
+  }
+}
