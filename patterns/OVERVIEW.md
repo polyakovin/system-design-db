@@ -97,6 +97,21 @@
 - [Emergence](code-quality/emergence.md) — правила простого дизайна (Kent Beck): tests, no duplication, intent, minimal.
 - [Code smells](code-quality/code-smells.md) — каталог запахов: bloaters, change preventers, couplers, dispensables.
 
+### Enterprise Application Architecture (Martin Fowler, 2002)
+
+Паттерны из книги "Patterns of Enterprise Application Architecture" — domain logic, data source, web presentation, concurrency, distribution.
+
+- [Domain Model vs Transaction Script](architecture-design/domain-model-vs-transaction-script.md) — выбор способа организации бизнес-логики
+- [Table Module vs Active Record](architecture-design/table-module-vs-active-record.md) — альтернативы Domain Model средней сложности
+- [Data Source Patterns](architecture-design/data-source-patterns.md) — Table Data Gateway, Row Data Gateway, Data Mapper
+- [Object-Relational Patterns](architecture-design/object-relational-patterns.md) — Unit of Work, Identity Map, Lazy Load
+- [MVC Pattern Decomposition](architecture-design/mvc-pattern-decomposition.md) — MVC, MVP, MVVM, Presentation Model
+- [Page Controller vs Front Controller](architecture-design/page-controller-vs-front-controller.md) — два подхода к обработке запросов
+- [Application Controller](architecture-design/application-controller.md) — централизованная логика навигации и flow
+- [Session State](architecture-design/session-state.md) — Client, Server, Database-backed сессии
+- [Distribution Patterns](architecture-design/distribution-patterns.md) — Remote Facade, Data Transfer Object
+- [Offline Concurrency](architecture-design/offline-concurrency.md) — pessimistic/optimistic lock, бизнес-транзакции
+
 ## Learning path
 
 1. Прочитать [System design principles](fundamentals/system-design-principles.md), чтобы договориться о языке.
