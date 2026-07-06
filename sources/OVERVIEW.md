@@ -27,6 +27,10 @@
 
 - [System Design Course Platforms](websites/system-design-course-platforms.md) — платные курсы: Grokking System Design (DesignGurus), Grokking OOD, Educative.io, Karpov.Courses (рус.), Stanford Databases (edX). Статус: referenced.
 
+## Blogs
+
+- [System Design Blogs & Channels](websites/system-design-blogs.md) — подборка 8 блогов/каналов: System Design One, ByteByteGo (сайт/YouTube/блог), Владислав Всеволодович, nvashanin, Architecture Weekly (TG), Code of Architecture (YT).
+
 ## Books
 
 - [Designing Data-Intensive Applications](books/designing-data-intensive-applications.md) — книга Martin Kleppmann о reliable, scalable and maintainable data systems; рекомендации разнесены по canonical заметкам.
@@ -62,6 +66,16 @@
 ## Articles
 
 - [Конспект по архитектуре ПО и System Design](articles/habr-software-architecture-and-system-design-summary.md) — Habr-пост с визуальной картой тем и ссылкой на Miro-доску.
+- [Mapping Your Software: Guide to Architecture Diagrams](articles/miro-architecture-diagrams.md) — статья Miro: 8 типов архитектурных диаграмм, C4 model, визуализация.
+- [System Design Interview — фрагмент книги (Питер)](articles/habr-piter-architecture-book-excerpt.md) — 4-шаговая методика прохождения System Design Interview.
+- [AvitoTech: готовимся к System Design Interview](articles/avito-architecture-experience.md) — опыт Avito: кросс-функциональные команды, 3 этапа интервью, ссылки на ресурсы.
+- [Slack Architecture](articles/slack-architecture.md) — Neo Kim (systemdesign.one): deep dive into Slack's real-time messaging, WebSocket scaling, channel architecture, and horizontal scaling.
+- [Ozon Tech — Platform Engineering (Database Sharding)](articles/ozon-platform-engineering.md) — Practical PostgreSQL sharding with Go, client-side distribution, and resharding strategies.
+- [System Design Recommendations — Slurm / Ozon](articles/ozon-taxi-architecture.md) — Curated system design resources with context on microservice taxi architecture and real-time matching.
+- [Data Mesh Principles and Logical Architecture](articles/data-mesh-principles.md) — Zhamak Dehghani (martinfowler.com): canonical reference on domain ownership, data as product, self-serve platform, and federated governance.
+- [Yandex Architecture Evolution — YDB Open Source](articles/yandex-architecture-evolution.md) — Infrastructure evolution at Yandex: from RDBMS through NoSQL to distributed SQL (YDB).
+- [Apache Cassandra Internals — CAP Theorem and Trade-offs](articles/cap-theorem-acid-explained.md) — Classic Habr deep-dive into CAP theorem, ACID vs BASE, consistent hashing, and tunable consistency.
+- [S3 Object Storage Overview](articles/s3-object-storage.md) — Yandex Cloud glossary: buckets, keys, tiered storage, and the S3 API.
 
 ## Правило
 
