@@ -19,17 +19,37 @@
     "name": "Cassandra",
     "path": "tools/databases/cassandra.md"
   },
+  "code-quality": {
+    "name": "Code quality",
+    "path": "patterns/fundamentals/code-quality.md"
+  },
   "consistency-models": {
     "name": "Consistency models",
     "path": "patterns/fundamentals/consistency-models.md"
+  },
+  "construction-metaphor": {
+    "name": "Software construction metaphor",
+    "path": "patterns/fundamentals/construction-metaphor.md"
   },
   "data-partitioning": {
     "name": "Data partitioning",
     "path": "patterns/architecture-design/data-partitioning.md"
   },
+  "debugging": {
+    "name": "Debugging",
+    "path": "patterns/fundamentals/debugging.md"
+  },
+  "defensive-programming": {
+    "name": "Defensive programming",
+    "path": "patterns/fundamentals/defensive-programming.md"
+  },
   "deployment-strategy": {
     "name": "Deployment strategy",
     "path": "patterns/production-operations/deployment-strategy.md"
+  },
+  "design-in-construction": {
+    "name": "Design in construction",
+    "path": "patterns/fundamentals/design-in-construction.md"
   },
   "distributed-transactions": {
     "name": "Distributed transactions",
@@ -55,6 +75,10 @@
     "name": "Load balancing",
     "path": "patterns/architecture-design/load-balancing.md"
   },
+  "managing-complexity": {
+    "name": "Managing complexity",
+    "path": "patterns/fundamentals/managing-complexity.md"
+  },
   "mongodb": {
     "name": "MongoDB",
     "path": "tools/databases/mongodb.md"
@@ -70,6 +94,10 @@
   "observability": {
     "name": "Observability",
     "path": "patterns/production-operations/observability.md"
+  },
+  "personal-character": {
+    "name": "Personal character",
+    "path": "patterns/fundamentals/personal-character.md"
   },
   "postgresql": {
     "name": "PostgreSQL",
@@ -95,9 +123,17 @@
     "name": "Redis",
     "path": "tools/caches/redis.md"
   },
+  "refactoring": {
+    "name": "Refactoring",
+    "path": "patterns/fundamentals/refactoring.md"
+  },
   "replication-strategy": {
     "name": "Replication strategy",
     "path": "patterns/architecture-design/replication-strategy.md"
+  },
+  "software-construction": {
+    "name": "Software construction",
+    "path": "patterns/fundamentals/software-construction.md"
   },
   "storage-selection": {
     "name": "Storage selection",
@@ -106,5 +142,9 @@
   "system-design-principles": {
     "name": "System design principles",
     "path": "patterns/fundamentals/system-design-principles.md"
+  },
+  "working-classes": {
+    "name": "Working classes",
+    "path": "patterns/fundamentals/working-classes.md"
   }
 }
