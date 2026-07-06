@@ -26,7 +26,23 @@
 ## Books
 
 - [Designing Data-Intensive Applications](books/designing-data-intensive-applications.md) — книга Martin Kleppmann о reliable, scalable and maintainable data systems; рекомендации разнесены по canonical заметкам.
-- [Awesome-CS-Books: Architecture — коллекция](books/awesome-cs-books-architecture.md) — сборный источник с общей таблицей
+- [System Design Interview (Vol. 1)](books/system-design-interview.md) — Alex Xu: 12 реальных сценариев system design с пошаговым разбором.
+- [System Design Interview (Vol. 2)](books/system-design-interview-v2.md) — Alex Xu, Sahn Lam: 11 сценариев с фокусом на distributed transactions и real-time.
+- [Software Architecture in Practice](books/software-architecture-in-practice.md) — Bass, Clements, Kazman: фундаментальный учебник от SEI по архитектуре ПО и quality attributes.
+- [Fundamentals of Software Architecture](books/fundamentals-of-software-architecture.md) — Richards, Ford: инженерный подход к архитектуре, архитектурные стили, fitness functions.
+- [Software Architecture: The Hard Parts](books/software-architecture-the-hard-parts.md) — Ford, Richards, Sadalage, Dehghani: trade-offs в distributed architectures, сервисная гранулярность.
+- [Design Patterns (GoF)](books/design-patterns-gof.md) — Gamma, Helm, Johnson, Vlissides: канонический каталог 23 паттернов OO-проектирования.
+- [Building Evolutionary Architectures](books/building-evolutionary-architectures.md) — Ford, Parsons, Kua, Sadalage: guided by fitness functions, incremental change как принцип.
+- [Distributed Systems (4th Ed.)](books/distributed-systems-4ed.md) — van Steen, Tanenbaum: учебник по распределённым системам (консенсус, репликация, именование).
+- [Documenting Software Architectures](books/documenting-software-architectures.md) — Clements et al.: views and beyond, шаблоны документирования архитектуры.
+- [Enterprise Integration Patterns](books/enterprise-integration-patterns.md) — Hohpe, Woolf: 65 паттернов интеграции через messaging.
+- [Database Internals](books/database-internals.md) — Alex Petrov: deep-dive в storage engines и распределённые алгоритмы БД.
+- [Big Data](books/big-data.md) — Marz, Warren: Lambda Architecture и best practices scalable real-time data систем.
+- [Learning Domain-Driven Design](books/learning-domain-driven-design.md) — Vlad Khononov: стратегический и тактический DDD для современных разработчиков.
+- [NoSQL Distilled](books/nosql-distilled.md) — Fowler, Sadalage: polyglot persistence и сравнение NoSQL-категорий.
+- [What Is Domain-Driven Design?](books/what-is-domain-driven-design.md) — Vlad Khononov: лёгкое введение в DDD.
+- [Stakeholder Theory: The State of the Art](books/stakeholder-theory.md) — Freeman et al.: теория заинтересованных сторон, применимая к архитектурным решениям.
+- [Awesome-CS-Books: Architecture](books/awesome-cs-books-architecture.md) — коллекция 12+ книг по архитектуре ПО из репозитория Awesome-CS-Books (Code Complete, DDD, Clean Architecture, Refactoring и др.)
 - [Code Complete](books/code-complete.md) — Steve McConnell, 2004
 - [Patterns of Enterprise Application Architecture](books/patterns-of-enterprise-application-architecture.md) — Martin Fowler, 2006
 - [Clean Code](books/clean-code.md) — Robert C. Martin, 2008
