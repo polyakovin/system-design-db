@@ -26,7 +26,18 @@
 ## Books
 
 - [Designing Data-Intensive Applications](books/designing-data-intensive-applications.md) — книга Martin Kleppmann о reliable, scalable and maintainable data systems; рекомендации разнесены по canonical заметкам.
-- [Awesome-CS-Books: Architecture](books/awesome-cs-books-architecture.md) — коллекция 12+ книг по архитектуре ПО из репозитория Awesome-CS-Books (Code Complete, DDD, Clean Architecture, Refactoring и др.)
+- [Awesome-CS-Books: Architecture — коллекция](books/awesome-cs-books-architecture.md) — сборный источник с общей таблицей
+- [Code Complete](books/code-complete.md) — Steve McConnell, 2004
+- [Patterns of Enterprise Application Architecture](books/patterns-of-enterprise-application-architecture.md) — Martin Fowler, 2006
+- [Clean Code](books/clean-code.md) — Robert C. Martin, 2008
+- [Domain-Driven Design](books/domain-driven-design.md) — Eric Evans, 2010
+- [Implementing Domain-Driven Design](books/implementing-domain-driven-design.md) — Vaughn Vernon, 2013
+- [The Simple Elegance of Software Design](books/simple-elegance-of-software-design.md) — Max Kanat-Alexander, 2013
+- [Practical Scalability Analysis with the USL](books/universal-scalability-law.md) — Baron Schwartz, 2015
+- [Patterns, Principles, and Practices of DDD](books/patterns-principles-practices-ddd.md) — Scott Millett, 2015
+- [架构漫谈 (Chatting About Architecture)](books/chatting-about-architecture.md) — 架构师, 2016
+- [Clean Architecture](books/clean-architecture.md) — Robert C. Martin, 2017
+- [Refactoring (2nd ed.)](books/refactoring-second-edition.md) — Martin Fowler, 2018
 
 ## Articles
 
