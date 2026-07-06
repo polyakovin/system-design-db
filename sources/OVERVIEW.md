@@ -21,6 +21,7 @@
 ## Websites
 
 - [Hello Interview](websites/hello-interview.md) — interview-prep platform with a system design learning track, technology summaries, patterns, and worked question breakdowns.
+- [A Philosophy of Software Design](websites/a-philosophy-of-software-design.md) — конспект книги John Ousterhout про управление сложностью в софтверном дизайне
 
 ## Books
 
