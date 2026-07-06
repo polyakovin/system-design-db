@@ -11,6 +11,10 @@
     "name": "API design",
     "path": "patterns/architecture-design/api-design.md"
   },
+  "architectural-boundaries": {
+    "name": "Architectural Boundaries",
+    "path": "patterns/architecture-design/architectural-boundaries.md"
+  },
   "availability-and-reliability": {
     "name": "Availability and reliability",
     "path": "patterns/fundamentals/availability-and-reliability.md"
@@ -39,6 +43,10 @@
     "name": "Classes",
     "path": "patterns/code-quality/classes.md"
   },
+  "clean-architecture": {
+    "name": "Clean Architecture",
+    "path": "patterns/architecture-design/clean-architecture.md"
+  },
   "code-quality": {
     "name": "Code quality",
     "path": "patterns/fundamentals/code-quality.md"
@@ -51,6 +59,10 @@
     "name": "Comments",
     "path": "patterns/code-quality/comments.md"
   },
+  "component-cohesion-coupling": {
+    "name": "Component Cohesion and Coupling",
+    "path": "patterns/architecture-design/component-cohesion-coupling.md"
+  },
   "consistency-models": {
     "name": "Consistency models",
     "path": "patterns/fundamentals/consistency-models.md"
@@ -59,9 +71,17 @@
     "name": "Software construction metaphor",
     "path": "patterns/fundamentals/construction-metaphor.md"
   },
+  "cqrs": {
+    "name": "CQRS",
+    "path": "patterns/architecture-design/cqrs.md"
+  },
   "data-partitioning": {
     "name": "Data partitioning",
     "path": "patterns/architecture-design/data-partitioning.md"
+  },
+  "database-as-detail": {
+    "name": "Database as a Detail",
+    "path": "patterns/architecture-design/database-as-detail.md"
   },
   "debugging": {
     "name": "Debugging",
@@ -87,6 +107,10 @@
     "name": "Distributed transactions",
     "path": "patterns/advanced/distributed-transactions.md"
   },
+  "domain-driven-ui": {
+    "name": "Domain-Driven UI",
+    "path": "patterns/architecture-design/domain-driven-ui.md"
+  },
   "domain-events": {
     "name": "Domain Events",
     "path": "patterns/architecture-design/domain-events.md"
@@ -106,6 +130,10 @@
   "error-handling": {
     "name": "Error Handling",
     "path": "patterns/code-quality/error-handling.md"
+  },
+  "event-sourcing": {
+    "name": "Event Sourcing",
+    "path": "patterns/architecture-design/event-sourcing.md"
   },
   "formatting": {
     "name": "Formatting",
@@ -215,6 +243,10 @@
     "name": "Software construction",
     "path": "patterns/fundamentals/software-construction.md"
   },
+  "solid-architecture-principles": {
+    "name": "SOLID Architecture Principles",
+    "path": "patterns/architecture-design/solid-architecture-principles.md"
+  },
   "storage-selection": {
     "name": "Storage selection",
     "path": "patterns/architecture-design/storage-selection.md"
@@ -235,6 +267,10 @@
     "name": "Systems",
     "path": "patterns/code-quality/systems.md"
   },
+  "testing-ddd": {
+    "name": "Testing DDD",
+    "path": "patterns/architecture-design/testing-ddd.md"
+  },
   "ubiquitous-language": {
     "name": "Ubiquitous Language",
     "path": "patterns/architecture-design/ubiquitous-language.md"
@@ -243,9 +279,17 @@
     "name": "Unit Tests",
     "path": "patterns/code-quality/unit-tests.md"
   },
+  "use-case-driven-design": {
+    "name": "Use Case Driven Design",
+    "path": "patterns/architecture-design/use-case-driven-design.md"
+  },
   "value-objects": {
     "name": "Value Objects",
     "path": "patterns/architecture-design/value-objects.md"
+  },
+  "web-as-detail": {
+    "name": "Web as a Detail",
+    "path": "patterns/architecture-design/web-as-detail.md"
   },
   "working-classes": {
     "name": "Working classes",

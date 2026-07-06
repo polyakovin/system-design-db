@@ -25,6 +25,18 @@
 - [Queues and streams](architecture-design/queues-and-streams.md) — async processing, ordering и consumer groups.
 - [Rate limiting](architecture-design/rate-limiting.md) — защита shared resources и fair usage.
 
+### Clean Architecture (Robert C. Martin)
+
+Паттерны из книги "Clean Architecture" (2017) — концентрические круги, dependency rule, компонентный дизайн.
+
+- [Clean Architecture](architecture-design/clean-architecture.md) — концентрические круги, Dependency Rule, screaming architecture, архитектура vs фреймворк.
+- [SOLID Architecture Principles](architecture-design/solid-architecture-principles.md) — SRP/OCP/LSP/ISP/DIP на уровне компонентов и сервисов.
+- [Component Cohesion and Coupling](architecture-design/component-cohesion-coupling.md) — REP/CCP/CRP (cohesion) и ADP/SDP/SAP (coupling), метрики устойчивости.
+- [Architectural Boundaries](architecture-design/architectural-boundaries.md) — boundary crossing, plugin architecture, presenters, Humble Object.
+- [Use Case Driven Design](architecture-design/use-case-driven-design.md) — use cases как оркестраторы, input/output порты, тестирование без фреймворков.
+- [Database as a Detail](architecture-design/database-as-detail.md) — БД как деталь, модель данных определяет схему, не наоборот.
+- [Web as a Detail](architecture-design/web-as-detail.md) — веб как I/O устройство, UI-независимые use cases, presenter + ViewModel.
+
 ### Domain-Driven Design (DDD)
 
 Паттерны из книги Eric Evans "Domain-Driven Design" (2010) — стратегический и тактический дизайн.
@@ -43,6 +55,15 @@
 - [Supple Design](architecture-design/supple-design.md) — intention-revealing interfaces, side-effect-free functions
 - [Distillation](architecture-design/distillation.md) — core domain vs generic vs supporting
 - [Large-Scale Structure](architecture-design/large-scale-structure.md) — system metaphors, evolving order
+
+#### Practical DDD (Vaughn Vernon, 2013)
+
+Дополнения из "Implementing Domain-Driven Design" — практическая реализация, детали инфраструктуры и новые паттерны.
+
+- [CQRS](architecture-design/cqrs.md) — разделение command и query моделей, tradeoffs
+- [Event Sourcing](architecture-design/event-sourcing.md) — event store, перестройка состояния, snapshots
+- [Domain-Driven UI](architecture-design/domain-driven-ui.md) — task-based UI, presentation model
+- [Testing DDD](architecture-design/testing-ddd.md) — тестирование агрегатов, событий, use cases
 
 ## Production & Operations
 
