@@ -43,7 +43,7 @@ class Customer:
 
 ## Типичные ошибки
 
-- Превращать всё в Entity — многие объекты могут быть Value Objects.
+- Превращать всё в Entity — многие объекты могут быть [Value Objects](value-objects.md).
 - Использовать технические ID (автоинкремент БД) как часть доменной модели.
 - Не различать equality по identity vs equality по состоянию.
 

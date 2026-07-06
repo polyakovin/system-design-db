@@ -26,7 +26,7 @@ Layered Architecture изолирует домен от инфраструкту
 Оркестрация use cases. Координирует доменные объекты, транзакции, вызов репозиториев. **Не содержит доменной логики.** Типичный житель: `CreateOrderHandler`, `ApproveInvoiceUseCase`.
 
 ### Domain Layer
-Сердце системы. Содержит Entities, Value Objects, Aggregates, Domain Services, Domain Events. **Не зависит ни от одного внешнего слоя.** Ноль зависимостей от БД, HTTP, UI.
+Сердце системы. Содержит [Entities](entities.md), [Value Objects](value-objects.md), [Aggregates](aggregates.md), [Domain Services](domain-services.md), [Domain Events](domain-events.md). **Не зависит ни от одного внешнего слоя.** Ноль зависимостей от БД, HTTP, UI.
 
 ### Infrastructure Layer
 Реализация технических деталей: БД, message brokers, HTTP-клиенты, файловые системы. Реализует интерфейсы, определённые в domain-слое.

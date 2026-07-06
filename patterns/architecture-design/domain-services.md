@@ -18,7 +18,7 @@ added: 2026-07-06
 Domain Service — stateless операция, которая выполняет доменную логику, не вписывающуюся естественно в Entity/VO. Сервис ничего не хранит, только координирует объекты.
 
 - **Stateless:** нет полей, только методы. Чистая функция от входных данных и доменных объектов.
-- **Имя — часть Ubiquitous Language:** `TransferService.transfer()`, `PricingService.calculate_price()`.
+- **Имя — часть [Ubiquitous Language](ubiquitous-language.md):** `TransferService.transfer()`, `PricingService.calculate_price()`.
 - **Не путать с Application Service:** Domain Service содержит бизнес-логику; Application Service — оркестрацию (транзакции, вызов репозиториев, отправку событий).
 
 ## Когда нужен Domain Service
