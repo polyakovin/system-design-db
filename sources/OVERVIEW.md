@@ -26,6 +26,7 @@
 ## Books
 
 - [Designing Data-Intensive Applications](books/designing-data-intensive-applications.md) — книга Martin Kleppmann о reliable, scalable and maintainable data systems; рекомендации разнесены по canonical заметкам.
+- [Awesome-CS-Books: Architecture](books/awesome-cs-books-architecture.md) — коллекция 12+ книг по архитектуре ПО из репозитория Awesome-CS-Books (Code Complete, DDD, Clean Architecture, Refactoring и др.)
 
 ## Articles
 
