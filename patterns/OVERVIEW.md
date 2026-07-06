@@ -65,6 +65,19 @@
 - [Domain-Driven UI](architecture-design/domain-driven-ui.md) — task-based UI, presentation model
 - [Testing DDD](architecture-design/testing-ddd.md) — тестирование агрегатов, событий, use cases
 
+#### Patterns, Principles, and Practices (Scott Millett, 2015)
+
+Дополнения из справочника Millett — практические трейд-оффы, орг-масштабирование, интеграционные паттерны и управление эволюцией.
+
+- [Tactical Decision Framework](architecture-design/tactical-decision-framework.md) — как выбирать между Entity, VO, Aggregate, Domain Service
+- [Process-Driven Architecture](architecture-design/process-driven-architecture.md) — DDD + бизнес-процессы, Sagas, Process Managers
+- [Event-Driven Architecture Patterns](architecture-design/event-driven-architecture-patterns.md) — event vs command, event chains, идемпотентные consumer-ы
+- [DDD Organization Scaling](architecture-design/ddd-organization-scaling.md) — Conway's Law, team per BC, domain governance
+- [DDD and Microservices](architecture-design/ddd-microservices-and-distributed-systems.md) — BC как граница сервиса, sagas, eventual consistency
+- [Legacy Integration Patterns](architecture-design/legacy-integration-patterns.md) — Strangler Fig, ACL implementation, CDC
+- [Bounded Context Communication](architecture-design/bounded-context-communication.md) — Published Language, Open-Host Service, consumer-driven contracts
+- [Domain Event Versioning](architecture-design/domain-event-versioning.md) — upcasters, schema registry, compatibility matrix
+
 ## Production & Operations
 
 Жизнь системы после запуска: наблюдаемость, релизы и восстановление.

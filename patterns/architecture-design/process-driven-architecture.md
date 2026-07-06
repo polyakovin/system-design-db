@@ -139,5 +139,5 @@ Millett's key insight: aggregates model *state*, processes model *change over ti
 - [CQRS](cqrs.md) — commands drive processes, queries show progress
 - [Event Sourcing](event-sourcing.md) — event stream IS the process audit trail
 - [Strategic Design](strategic-design.md) — processes span bounded contexts
-- [Distributed Transactions](../../advanced/distributed-transactions.md) — saga implementation details
+- [Distributed Transactions](../advanced/distributed-transactions.md) — saga implementation details
 - [Patterns, Principles, and Practices of DDD](../../sources/books/patterns-principles-practices-ddd.md) — Chapter 22 (Process-Driven Architecture)

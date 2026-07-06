@@ -35,6 +35,10 @@
     "name": "Bounded Context",
     "path": "patterns/architecture-design/bounded-context.md"
   },
+  "bounded-context-communication": {
+    "name": "Bounded Context Communication",
+    "path": "patterns/architecture-design/bounded-context-communication.md"
+  },
   "caching-strategy": {
     "name": "Caching strategy",
     "path": "patterns/architecture-design/caching-strategy.md"
@@ -106,6 +110,14 @@
   "database-as-detail": {
     "name": "Database as a Detail",
     "path": "patterns/architecture-design/database-as-detail.md"
+  },
+  "ddd-microservices-and-distributed-systems": {
+    "name": "DDD and Microservices",
+    "path": "patterns/architecture-design/ddd-microservices-and-distributed-systems.md"
+  },
+  "ddd-organization-scaling": {
+    "name": "DDD Organization Scaling",
+    "path": "patterns/architecture-design/ddd-organization-scaling.md"
   },
   "debugging": {
     "name": "Debugging",
