@@ -19,27 +19,27 @@ Martin Fowler, 2002.
 ## Разобранные концепции
 
 ### Domain Logic
-- [Domain Model vs Transaction Script](../patterns/architecture-design/domain-model-vs-transaction-script.md) — когда использовать объектную модель, а когда процедурные скрипты
-- [Table Module vs Active Record](../patterns/architecture-design/table-module-vs-active-record.md) — промежуточные паттерны между Transaction Script и Domain Model
+- [Domain Model vs Transaction Script](../../patterns/architecture-design/domain-model-vs-transaction-script.md) — когда использовать объектную модель, а когда процедурные скрипты
+- [Table Module vs Active Record](../../patterns/architecture-design/table-module-vs-active-record.md) — промежуточные паттерны между Transaction Script и Domain Model
 
 ### Data Source
-- [Data Source Patterns](../patterns/architecture-design/data-source-patterns.md) — Table Data Gateway, Row Data Gateway, Data Mapper
-- [Object-Relational Patterns](../patterns/architecture-design/object-relational-patterns.md) — Unit of Work, Identity Map, Lazy Load
+- [Data Source Patterns](../../patterns/architecture-design/data-source-patterns.md) — Table Data Gateway, Row Data Gateway, Data Mapper
+- [Object-Relational Patterns](../../patterns/architecture-design/object-relational-patterns.md) — Unit of Work, Identity Map, Lazy Load
 
 ### Presentation
-- [MVC Pattern Decomposition](../patterns/architecture-design/mvc-pattern-decomposition.md) — MVC, MVP, MVVM, Presentation Model
-- [Page Controller vs Front Controller](../patterns/architecture-design/page-controller-vs-front-controller.md) — два способа диспетчеризации запросов
-- [Application Controller](../patterns/architecture-design/application-controller.md) — централизованное управление навигацией и flow
+- [MVC Pattern Decomposition](../../patterns/architecture-design/mvc-pattern-decomposition.md) — MVC, MVP, MVVM, Presentation Model
+- [Page Controller vs Front Controller](../../patterns/architecture-design/page-controller-vs-front-controller.md) — два способа диспетчеризации запросов
+- [Application Controller](../../patterns/architecture-design/application-controller.md) — централизованное управление навигацией и flow
 
 ### Architecture
-- [Layered Architecture](../patterns/architecture-design/layered-architecture.md) — PEAA-версия классической трёхуровневой архитектуры (Presentation, Domain, Data Source)
+- [Layered Architecture](../../patterns/architecture-design/layered-architecture.md) — PEAA-версия классической трёхуровневой архитектуры (Presentation, Domain, Data Source)
 
 ### Distribution & State
-- [Session State](../patterns/architecture-design/session-state.md) — Client, Server, Database-backed session
-- [Distribution Patterns](../patterns/architecture-design/distribution-patterns.md) — Remote Facade, Data Transfer Object
+- [Session State](../../patterns/architecture-design/session-state.md) — Client, Server, Database-backed session
+- [Distribution Patterns](../../patterns/architecture-design/distribution-patterns.md) — Remote Facade, Data Transfer Object
 
 ### Concurrency
-- [Offline Concurrency](../patterns/architecture-design/offline-concurrency.md) — pessimistic/optimistic lock, implicit lock, business vs system transactions
+- [Offline Concurrency](../../patterns/architecture-design/offline-concurrency.md) — pessimistic/optimistic lock, implicit lock, business vs system transactions
 
 ## Статус
 
