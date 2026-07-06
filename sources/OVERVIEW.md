@@ -81,6 +81,7 @@
 - [Yandex Architecture Evolution — YDB Open Source](articles/yandex-architecture-evolution.md) — Infrastructure evolution at Yandex: from RDBMS through NoSQL to distributed SQL (YDB).
 - [Apache Cassandra Internals — CAP Theorem and Trade-offs](articles/cap-theorem-acid-explained.md) — Classic Habr deep-dive into CAP theorem, ACID vs BASE, consistent hashing, and tunable consistency.
 - [S3 Object Storage Overview](articles/s3-object-storage.md) — Yandex Cloud glossary: buckets, keys, tiered storage, and the S3 API.
+- [The Twelve-Factor App](articles/twelve-factor-app.md) — Adam Wiggins / Heroku: 12 принципов построения SaaS-приложений (codebase, config, stateless processes, logs as streams).
 
 ## Правило
 
