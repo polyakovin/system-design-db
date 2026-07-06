@@ -23,6 +23,13 @@
 - Как будет расти dataset?
 - Какие restore и migration paths нужны?
 
+## Рекомендации из DDIA
+
+- Выбирай data model по форме связей: document model удобен для self-contained aggregates, relational model сильнее для many-to-one и many-to-many relationships, graph model нужен для densely connected data.
+- Разделяй OLTP и OLAP workloads: user-facing point lookups и analytical scans требуют разных storage layouts, индексов и operational paths.
+- Учитывай storage engine: B-tree engines обычно хороши для read-heavy point/range access, LSM-based engines часто сильны на write-heavy workloads, но требуют внимания к compaction и read amplification.
+- Derived data systems, например search indexes, caches и analytics views, должны быть rebuildable из source of truth или append-only log.
+
 ## Связанные материалы
 
 - [PostgreSQL](../../tools/databases/postgresql.md)
@@ -32,4 +39,4 @@
 - [Redis](../../tools/caches/redis.md)
 - [Data partitioning](data-partitioning.md)
 - [Replication strategy](replication-strategy.md)
-
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

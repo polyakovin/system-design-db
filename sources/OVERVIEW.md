@@ -13,9 +13,18 @@
 ## Категории
 
 - Books and long-form materials.
+- Learning platforms and interview-prep websites.
 - Engineering articles and postmortems.
 - Vendor docs and architecture guides.
 - Talks and conference materials.
+
+## Websites
+
+- [Hello Interview](websites/hello-interview.md) — interview-prep platform with a system design learning track, technology summaries, patterns, and worked question breakdowns.
+
+## Books
+
+- [Designing Data-Intensive Applications](books/designing-data-intensive-applications.md) — книга Martin Kleppmann о reliable, scalable and maintainable data systems; рекомендации разнесены по canonical заметкам.
 
 ## Articles
 

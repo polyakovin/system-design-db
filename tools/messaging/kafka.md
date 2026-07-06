@@ -36,8 +36,15 @@ Distributed event log для durable streams, replay, fanout и event-driven int
 
 Use an event log when replay and independent consumers are core requirements, not just because a workflow is asynchronous.
 
+## Рекомендации из DDIA
+
+- Log-based broker is a good fit when consumers need ordered partitions, replay by offset and independently derived state.
+- Partition key sets both ordering boundary and parallelism ceiling; changing it later is a data migration, not a config tweak.
+- Log compaction can make a stream represent the latest state of keyed records, useful for rebuilding derived stores.
+- Exactly-once claims must be checked end to end: producer, broker, consumer state, external side effects and idempotency all matter.
+
 ## Связанные материалы
 
 - [Queues and streams](../../patterns/architecture-design/queues-and-streams.md)
 - [Distributed transactions](../../patterns/advanced/distributed-transactions.md)
-
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

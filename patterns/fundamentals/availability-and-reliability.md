@@ -19,6 +19,13 @@ High availability часто называют целью, но без SLO, failu
 
 Больше redundancy повышает стоимость и operational complexity. Иногда правильнее снизить blast radius, чем строить полностью active-active систему.
 
+## Рекомендации из DDIA
+
+- Отличай fault от failure: fault может быть скрыт fault-tolerance механизмами, failure уже видит пользователь.
+- Учитывай hardware, software и human faults: систематические software bugs и operator mistakes часто опаснее одиночного отказа машины.
+- Делай recovery path проверяемым: restore, failover, rollback и data repair должны регулярно выполняться, а не жить только в runbook.
+- Не считай timeout доказательством смерти узла: в distributed system это только suspicion, поэтому failover должен учитывать split brain и degraded nodes.
+
 ## Когда применять
 
 - Система обслуживает critical user workflow.
@@ -31,4 +38,4 @@ High availability часто называют целью, но без SLO, failu
 - [Load balancing](../architecture-design/load-balancing.md)
 - [Incident response](../production-operations/incident-response.md)
 - [Multi-region architecture](../advanced/multi-region-architecture.md)
-
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

@@ -36,8 +36,15 @@ Message broker для task queues, routing rules, acknowledgements и workload d
 
 Good fit when the system needs work distribution and retry semantics more than long-term event replay.
 
+## Рекомендации из DDIA
+
+- AMQP/JMS-style broker fits asynchronous RPC and work distribution, where acknowledged messages can be removed after processing.
+- Use dead-letter queues, retry limits and idempotent handlers because delivery failure is part of the contract.
+- Do not use a transient task queue as durable system history if consumers need replay, rebuild or independent derived state.
+- Queue depth is a user-facing freshness signal when tasks represent delayed workflow completion.
+
 ## Связанные материалы
 
 - [Queues and streams](../../patterns/architecture-design/queues-and-streams.md)
 - [Incident response](../../patterns/production-operations/incident-response.md)
-
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

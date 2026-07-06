@@ -30,10 +30,17 @@
 
 Capacity estimate не должен быть точным прогнозом. Его задача — показать порядок величин и заставить явно назвать риски.
 
+## Рекомендации из DDIA
+
+- Load должен описываться параметрами, которые управляют архитектурой: requests per second, read/write ratio, fanout, payload size, cardinality keys, hot spots.
+- Performance описывай через response-time distribution и throughput, а не single average.
+- Для scaling strategy сначала найди limiting resource: CPU, disk seek, disk bandwidth, memory, network, locks, connection pools или partition hot spot.
+- Отдельно оцени write amplification: secondary indexes, replication, change streams, cache invalidation и analytics pipelines могут умножать один user write.
+
 ## Связанные материалы
 
 - [Latency and throughput](latency-and-throughput.md)
 - [Data partitioning](../architecture-design/data-partitioning.md)
 - [Queues and streams](../architecture-design/queues-and-streams.md)
 - [Rate limiting](../architecture-design/rate-limiting.md)
-
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

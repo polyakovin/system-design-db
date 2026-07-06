@@ -18,6 +18,14 @@
 
 Async processing улучшает resilience и throughput, но добавляет eventual completion, duplicate delivery и delayed failures.
 
+## Рекомендации из DDIA
+
+- Различай task queue и event log: task queue распределяет work между workers, event log хранит ordered history для replay и independent consumers.
+- Retained log полезен, когда derived state нужно rebuild from scratch: search index, cache, analytics view или materialized view.
+- Change data capture и event sourcing превращают database writes в stream, но требуют schema evolution, idempotent consumers и replay-safe side effects.
+- Exactly-once semantics не появляются от broker alone: end-to-end correctness требует operation identifiers, idempotency и transactional boundary для state change плюс message publication.
+- Для stream processing отдельно моделируй event time, processing time, late events и window completeness.
+
 ## Когда применять
 
 - Work can complete after user response.
@@ -30,4 +38,4 @@ Async processing улучшает resilience и throughput, но добавля�
 - [Capacity estimation](../fundamentals/capacity-estimation.md)
 - [Kafka](../../tools/messaging/kafka.md)
 - [RabbitMQ](../../tools/messaging/rabbitmq.md)
-
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

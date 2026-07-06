@@ -36,8 +36,16 @@ Relational database, часто используемая для web workloads, m
 
 Выбор relational engine должен опираться на access patterns, team experience и operational ecosystem.
 
+## Рекомендации из DDIA
+
+- Relational schema дает явную schema-on-write дисциплину, полезную для correctness и evolvability.
+- Read replicas масштабируют reads, но не отменяют stale reads; для critical workflows нужны read-your-writes rules или routing на leader.
+- Sharding relational data усложняет joins, uniqueness и transactions, поэтому shard key должен следовать из access patterns, а не из размера таблицы alone.
+- Analytical scans лучше выносить в derived OLAP path, чтобы не смешивать user-facing OLTP latency и heavy reporting workload.
+
 ## Связанные материалы
 
 - [Storage selection](../../patterns/architecture-design/storage-selection.md)
 - [Replication strategy](../../patterns/architecture-design/replication-strategy.md)
-
+- [Consistency models](../../patterns/fundamentals/consistency-models.md)
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

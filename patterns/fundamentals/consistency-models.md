@@ -18,6 +18,14 @@
 
 Сильная согласованность упрощает reasoning, но увеличивает coordination cost и может ухудшить latency. Более слабые модели требуют компенсирующих workflow и понятного UX.
 
+## Рекомендации из DDIA
+
+- Называй конкретную гарантию, а не просто "strong" или "eventual": read committed, snapshot isolation, serializability, linearizability, causal consistency.
+- Linearizability удобна для reasoning, но дорога при network delays и плохо сочетается с geo-distribution.
+- Causality дешевле linearizability, но constraints вроде unique username или non-negative inventory часто требуют coordination.
+- Не полагайся на physical clocks для correctness: clock skew, pauses и timestamp ordering могут создавать hidden anomalies.
+- Для слабых моделей явно опиши anomalies, которые продукт допускает, и recovery workflow для тех, которые недопустимы.
+
 ## Когда применять
 
 - При проектировании денежных, inventory, booking и permission flows.
@@ -30,4 +38,4 @@
 - [Distributed transactions](../advanced/distributed-transactions.md)
 - [Storage selection](../architecture-design/storage-selection.md)
 - [API design](../architecture-design/api-design.md)
-
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

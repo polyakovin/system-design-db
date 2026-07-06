@@ -36,9 +36,16 @@ Relational database для transactional workloads, relational constraints, rich
 
 Начинай с relational model, если данные имеют устойчивые связи и correctness важнее premature horizontal scale.
 
+## Рекомендации из DDIA
+
+- Relational model особенно полезна, когда domain содержит many-to-one и many-to-many relationships, а query language должен оставаться declarative.
+- B-tree indexes хорошо подходят для common OLTP access paths, но каждый secondary index увеличивает write amplification и migration cost.
+- Transactions и constraints лучше использовать для локальных invariants внутри одного database boundary; cross-system invariants требуют отдельного integration design.
+- При read replicas явно документируй replication lag и user-visible consistency guarantees.
+
 ## Связанные материалы
 
 - [Storage selection](../../patterns/architecture-design/storage-selection.md)
 - [Consistency models](../../patterns/fundamentals/consistency-models.md)
 - [Replication strategy](../../patterns/architecture-design/replication-strategy.md)
-
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)

@@ -36,9 +36,17 @@ Distributed wide-column database для high-write workloads, predictable access
 
 Сначала моделируй access patterns и partition keys. Потом проверяй hot partitions и compaction behavior.
 
+## Рекомендации из DDIA
+
+- LSM-style storage favors high write throughput, but compaction, tombstones and read amplification become operational design constraints.
+- Partition key должен распределять load и сохранять нужный query shape; hot partitions are a design bug, not just an ops issue.
+- Tunable consistency is per-operation tradeoff: quorum settings reduce some stale reads, but do not eliminate all anomalies under failures and concurrent writes.
+- Leaderless replication требует repair mechanisms: hinted handoff, read repair, anti-entropy and clear monitoring for replica divergence.
+
 ## Связанные материалы
 
 - [Data partitioning](../../patterns/architecture-design/data-partitioning.md)
 - [Replication strategy](../../patterns/architecture-design/replication-strategy.md)
 - [Storage selection](../../patterns/architecture-design/storage-selection.md)
-
+- [Consistency models](../../patterns/fundamentals/consistency-models.md)
+- [Designing Data-Intensive Applications](../../sources/books/designing-data-intensive-applications.md)
