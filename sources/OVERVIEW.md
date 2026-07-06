@@ -23,6 +23,11 @@
 - [Hello Interview](websites/hello-interview.md) — interview-prep platform with a system design learning track, technology summaries, patterns, and worked question breakdowns.
 - [A Philosophy of Software Design](websites/a-philosophy-of-software-design.md) — конспект книги John Ousterhout про управление сложностью в софтверном дизайне
 
+## Videos
+
+- [System Design Interviews (YouTube)](videos/youtube-system-design.md) — подборка 8 видео: Uber, Netflix, WhatsApp, Twitter, YouTube, Amazon, URL Shortener, mock interview.
+- [System Design (VK Video)](videos/vk-system-design.md) — подборка 8 русскоязычных видео: разборы архитектур и mock интервью.
+
 ## Learning Platforms
 
 - [System Design Course Platforms](websites/system-design-course-platforms.md) — платные курсы: Grokking System Design (DesignGurus), Grokking OOD, Educative.io, Karpov.Courses (рус.), Stanford Databases (edX). Статус: referenced.
