@@ -16,6 +16,25 @@ Eric Evans, 2010.
 
 Источник: [Awesome-CS-Books / Architecture](https://github.com/rocky-191/Awesome-CS-Books/tree/master/SoftwareEngineering/Architecture)
 
+## Извлечённые концепции
+
+Из книги извлечены и оформлены как canonical-заметки в `patterns/architecture-design/`:
+
+- [Ubiquitous Language](../../patterns/architecture-design/ubiquitous-language.md) — единый язык в bounded context
+- [Bounded Context](../../patterns/architecture-design/bounded-context.md) — границы модели
+- [Entities](../../patterns/architecture-design/entities.md) — объекты с identity
+- [Value Objects](../../patterns/architecture-design/value-objects.md) — иммутабельные объекты, определённые атрибутами
+- [Aggregates](../../patterns/architecture-design/aggregates.md) — кластеры Entity + VO с root и инвариантами
+- [Repositories](../../patterns/architecture-design/repositories.md) — абстракция хранения агрегатов
+- [Domain Services](../../patterns/architecture-design/domain-services.md) — stateless доменные операции
+- [Domain Events](../../patterns/architecture-design/domain-events.md) — события предметной области
+- [Strategic Design](../../patterns/architecture-design/strategic-design.md) — context map и отношения между BC
+- [Anti-Corruption Layer](../../patterns/architecture-design/anti-corruption-layer.md) — защита модели
+- [Layered Architecture](../../patterns/architecture-design/layered-architecture.md) — слои: UI, Application, Domain, Infrastructure
+- [Supple Design](../../patterns/architecture-design/supple-design.md) — intention-revealing interfaces, side-effect-free functions
+- [Distillation](../../patterns/architecture-design/distillation.md) — core domain vs generic vs supporting
+- [Large-Scale Structure](../../patterns/architecture-design/large-scale-structure.md) — system metaphors, evolving order
+
 ## Статус
 
 Добавлено: 2026-07-06
