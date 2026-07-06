@@ -12,7 +12,7 @@
     "path": "patterns/architecture-design/anti-corruption-layer.md"
   },
   "api-design": {
-    "name": "API design",
+    "name": "API Design",
     "path": "patterns/architecture-design/api-design.md"
   },
   "application-controller": {
@@ -22,6 +22,22 @@
   "architectural-boundaries": {
     "name": "Architectural Boundaries",
     "path": "patterns/architecture-design/architectural-boundaries.md"
+  },
+  "architectural-debt": {
+    "name": "Architectural Debt",
+    "path": "patterns/architecture-design/architectural-debt.md"
+  },
+  "architecture-as-tradeoff": {
+    "name": "Architecture as Continuous Tradeoff",
+    "path": "patterns/architecture-design/architecture-as-tradeoff.md"
+  },
+  "architecture-evolution": {
+    "name": "Architecture Evolution",
+    "path": "patterns/architecture-design/architecture-evolution.md"
+  },
+  "architecture-vs-design": {
+    "name": "Architecture vs Design",
+    "path": "patterns/architecture-design/architecture-vs-design.md"
   },
   "availability-and-reliability": {
     "name": "Availability and reliability",
@@ -207,6 +223,10 @@
     "name": "Functions",
     "path": "patterns/code-quality/functions.md"
   },
+  "governance-in-distributed-systems": {
+    "name": "Governance in Distributed Systems",
+    "path": "patterns/architecture-design/governance-in-distributed-systems.md"
+  },
   "grafana": {
     "name": "Grafana",
     "path": "tools/observability/grafana.md"
@@ -343,6 +363,14 @@
     "name": "Refactoring",
     "path": "patterns/fundamentals/refactoring.md"
   },
+  "refactoring-and-testing": {
+    "name": "Refactoring and Testing",
+    "path": "patterns/code-quality/refactoring-and-testing.md"
+  },
+  "refactoring-catalog": {
+    "name": "Refactoring Catalog",
+    "path": "patterns/code-quality/refactoring-catalog.md"
+  },
   "replication-strategy": {
     "name": "Replication strategy",
     "path": "patterns/architecture-design/replication-strategy.md"
@@ -351,6 +379,10 @@
     "name": "Repositories",
     "path": "patterns/architecture-design/repositories.md"
   },
+  "rest-architectural-style": {
+    "name": "REST Architectural Style",
+    "path": "patterns/architecture-design/rest-architectural-style.md"
+  },
   "session-state": {
     "name": "Session State",
     "path": "patterns/architecture-design/session-state.md"
@@ -358,6 +390,10 @@
   "simplicity-first": {
     "name": "Simplicity First",
     "path": "patterns/fundamentals/simplicity-first.md"
+  },
+  "soa-vs-microservices": {
+    "name": "SOA vs Microservices",
+    "path": "patterns/architecture-design/soa-vs-microservices.md"
   },
   "software-construction": {
     "name": "Software construction",

@@ -116,6 +116,30 @@ The level you need depends on organizational complexity, not on how "good" you a
 - Prototype/experimental projects: skip governance, distill learnings later
 - Stable contexts with no integration changes: don't review what isn't changing
 
+## Архитектор (2016): Conway's Law beyond DDD
+
+The Architect (架构漫谈) provides a non-DDD perspective on Conway's Law, framing it as a universal architectural constraint, not a DDD-specific insight:
+
+> "Структура команды — это архитектура. Всё остальное — детали." — Team structure IS the architecture. Everything else is details.
+
+### The Architect's Conway corollaries
+
+1. **You cannot out-architect your org chart.** If the organization has separate frontend and backend teams, the architecture WILL have a frontend-backend split — regardless of what bounded contexts the domain analysis suggests.
+
+2. **Architectural problems are often organizational problems in disguise.** A service that "nobody owns" is a team structure problem, not an architecture problem. Shared databases between services are almost always the result of shared ownership or unclear boundaries between teams.
+
+3. **Communication paths dictate coupling.** If Team A and Team B meet daily, their services will be tightly coupled — regardless of what the architecture diagram says. If they never speak, integration will be loose and documented.
+
+4. **The Inverse Conway Maneuver is a restructuring, not a replatforming.** Before splitting the monolith, split the teams. The code will follow. Attempting the reverse (split the code, keep the teams) creates a distributed monolith.
+
+### Where the Architect differs from Millett
+
+Millett treats Conway's Law as a tool for DDD scaling (team per bounded context). The Architect treats it as a **diagnostic tool** for any architectural problem:
+
+- Symptom: "Service boundaries keep getting violated."
+- Millett's response: "Strengthen the bounded context, add ACLs."
+- Architect's response: "Who talks to whom? The architecture is reflecting the communication patterns. Fix the communication, not the code."
+
 ## Связанные материалы
 
 - [Bounded Context](bounded-context.md) — the atomic unit of team ownership
@@ -123,4 +147,7 @@ The level you need depends on organizational complexity, not on how "good" you a
 - [Distillation](distillation.md) — where to invest (core domain gets best team)
 - [DDD and Microservices](ddd-microservices-and-distributed-systems.md) — context as service boundary
 - [Bounded Context Communication](bounded-context-communication.md) — how teams integrate
+- [Architecture vs Design](architecture-vs-design.md) — Conway's Law as a strategic constraint
+- [Governance in Distributed Systems](governance-in-distributed-systems.md) — governing team boundaries
+- [Managing Complexity](../fundamentals/managing-complexity.md) — team complexity as a source of system complexity
 - [Patterns, Principles, and Practices of DDD](../../sources/books/patterns-principles-practices-ddd.md) — Chapter 24

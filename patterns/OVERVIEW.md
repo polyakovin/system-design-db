@@ -86,6 +86,19 @@
 - [Deployment strategy](production-operations/deployment-strategy.md) — rolling, blue-green, canary и rollback.
 - [Incident response](production-operations/incident-response.md) — detection, triage, mitigation и postmortem.
 
+### 架构漫谈 (Architect, 2016)
+
+Эссе китайского архитектора об эволюции архитектур, REST, tradeoffs, governance и архитектурном долге.
+
+- [Architecture Evolution](architecture-design/architecture-evolution.md) — монолит → SOA → микросервисы → Event-Driven, эволюция не революция
+- [Architecture as Tradeoff](architecture-design/architecture-as-tradeoff.md) — каждое архитектурное решение — компромисс
+- [REST Architectural Style](architecture-design/rest-architectural-style.md) — resource-oriented, stateless, uniform interface
+- [SOA vs Microservices](architecture-design/soa-vs-microservices.md) — различия, когда что выбирать
+- [API Design](architecture-design/api-design.md) — контракты, backward compatibility, evolvability
+- [Governance in Distributed Systems](architecture-design/governance-in-distributed-systems.md) — децентрализованное управление эволюцией
+- [Architectural Debt](architecture-design/architectural-debt.md) — архитектурные долги сложнее pay off
+- [Architecture vs Design](architecture-design/architecture-vs-design.md) — стратегические vs тактические решения
+
 ## Advanced
 
 Продвинутые решения, которые нужны не каждой системе, но сильно влияют на архитектуру при росте масштаба.
@@ -108,7 +121,15 @@
 - [Classes](code-quality/classes.md) — организация классов, cohesion, SRP.
 - [Systems](code-quality/systems.md) — separation of main, dependency injection, scaling up.
 - [Emergence](code-quality/emergence.md) — правила простого дизайна (Kent Beck): tests, no duplication, intent, minimal.
-- [Code smells](code-quality/code-smells.md) — каталог запахов: bloaters, change preventers, couplers, dispensables.
+- [Code smells](code-quality/code-smells.md) — каталог из 24+ запахов (Fowler + Clean Code): Mutable Data, Global Data, Feature Envy, Data Clumps, Primitive Obsession и др.
+
+### Refactoring (Martin Fowler, 2018)
+
+Паттерны из книги "Refactoring: Improving the Design of Existing Code" (2nd ed.) — каталог рефакторингов, процесс, code smells, связь с тестированием.
+
+- [Refactoring](fundamentals/refactoring.md) — определение (behavior-preserving transformations), процесс (TDD-подобный цикл), two hats metaphor, когда не рефакторить.
+- [Refactoring catalog](code-quality/refactoring-catalog.md) — полный каталог техник: fundamental, encapsulation, moving, organizing data, simplifying conditionals, API, inheritance.
+- [Refactoring and testing](code-quality/refactoring-and-testing.md) — self-testing code как prerequisite, performance impact, characterization tests.
 
 ### Enterprise Application Architecture (Martin Fowler, 2002)
 
