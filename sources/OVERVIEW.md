@@ -23,6 +23,10 @@
 - [Hello Interview](websites/hello-interview.md) — interview-prep platform with a system design learning track, technology summaries, patterns, and worked question breakdowns.
 - [A Philosophy of Software Design](websites/a-philosophy-of-software-design.md) — конспект книги John Ousterhout про управление сложностью в софтверном дизайне
 
+## Learning Platforms
+
+- [System Design Course Platforms](websites/system-design-course-platforms.md) — платные курсы: Grokking System Design (DesignGurus), Grokking OOD, Educative.io, Karpov.Courses (рус.), Stanford Databases (edX). Статус: referenced.
+
 ## Books
 
 - [Designing Data-Intensive Applications](books/designing-data-intensive-applications.md) — книга Martin Kleppmann о reliable, scalable and maintainable data systems; рекомендации разнесены по canonical заметкам.
