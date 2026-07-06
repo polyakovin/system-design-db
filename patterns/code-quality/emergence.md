@@ -47,6 +47,16 @@ added: 2026-07-06
 - После избавления от дублирования и выражения намерения посмотри, что можно удалить.
 - Правило: любой код, который не нужен прямо сейчас — удали.
 
+## Kanat-Alexander: YAGNI systematized
+
+Kent Beck's "minimal elements" rule is the seed. Kanat-Alexander develops it into a full design philosophy:
+
+- **Don't write code you don't need right now.** Unnecessary code = future bugs + future maintenance + future confusion.
+- **The simplest fix is making the problem disappear.** Before writing code for a fix, ask: can I remove the condition that creates the problem? Can I solve it by deleting code? Only write new code as a last resort.
+- **The law of diminishing returns to complexity.** Each new feature makes every subsequent feature harder to add. Evaluate features by the future value they block, not just their own value.
+
+See also: [Minimum necessary work](../fundamentals/minimum-necessary-work.md).
+
 ## Tradeoffs
 
 - Minimal ≠ преждевременная оптимизация. Не жертвуй читаемостью ради на один класс меньше.
@@ -58,3 +68,4 @@ added: 2026-07-06
 - [Functions](functions.md)
 - [Code Smells](code-smells.md)
 - [Clean Code](../../sources/books/clean-code.md)
+- [Minimum necessary work](../fundamentals/minimum-necessary-work.md) — YAGNI and simplicity from Code Simplicity

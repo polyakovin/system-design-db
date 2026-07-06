@@ -52,6 +52,14 @@ McConnell предлагает **научный метод отладки**: sys
 - **Binary search debugging** — отключение/включение частей системы для локализации.
 - **Rubber duck debugging** — объяснение проблемы вслух другому (или утке).
 
+## Kanat-Alexander: Defects are failures of understanding
+
+Kanat-Alexander reframes debugging more fundamentally than McConnell's scientific method: **bugs are not caused by carelessness or inattention — they are caused by not understanding the system.** If you truly understood every line of code, every interaction, and every edge case, you would not introduce defects.
+
+When a bug appears, the root cause is always a gap in your mental model. Fix the understanding first, then the code. This complements McConnell's method: McConnell gives the *process* for finding the gap; Kanat-Alexander identifies *why* the gap exists.
+
+See also: [Understanding before building](understanding-before-building.md).
+
 ## Психология отладки
 
 - Не вини компьютер — баг в твоём коде (или в твоём понимании чужого кода).
@@ -63,7 +71,9 @@ McConnell предлагает **научный метод отладки**: sys
 - [Defensive programming](defensive-programming.md)
 - [Code quality](code-quality.md)
 - [Managing complexity](managing-complexity.md)
+- [Understanding before building](understanding-before-building.md) — Kanat-Alexander on defects as understanding gaps
 
 ## Источник
 
 Steve McConnell, *Code Complete* (2004), Chapter 23: Debugging.
+Max Kanat-Alexander, *The Simple Elegance of Software Design* (2013) — defects as failures of understanding.

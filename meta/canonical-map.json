@@ -3,6 +3,10 @@
     "name": "Aggregates",
     "path": "patterns/architecture-design/aggregates.md"
   },
+  "amdahls-law": {
+    "name": "Amdahl's Law",
+    "path": "patterns/performance-and-scalability/amdahls-law.md"
+  },
   "anti-corruption-layer": {
     "name": "Anti-Corruption Layer",
     "path": "patterns/architecture-design/anti-corruption-layer.md"
@@ -10,6 +14,10 @@
   "api-design": {
     "name": "API design",
     "path": "patterns/architecture-design/api-design.md"
+  },
+  "application-controller": {
+    "name": "Application Controller",
+    "path": "patterns/architecture-design/application-controller.md"
   },
   "architectural-boundaries": {
     "name": "Architectural Boundaries",
@@ -35,6 +43,10 @@
     "name": "Capacity estimation",
     "path": "patterns/fundamentals/capacity-estimation.md"
   },
+  "capacity-planning": {
+    "name": "Capacity Planning with USL",
+    "path": "patterns/performance-and-scalability/capacity-planning.md"
+  },
   "cassandra": {
     "name": "Cassandra",
     "path": "tools/databases/cassandra.md"
@@ -55,6 +67,10 @@
     "name": "Code Smells",
     "path": "patterns/code-quality/code-smells.md"
   },
+  "coherency": {
+    "name": "Coherency (β coefficient)",
+    "path": "patterns/performance-and-scalability/coherency.md"
+  },
   "comments": {
     "name": "Comments",
     "path": "patterns/code-quality/comments.md"
@@ -71,6 +87,10 @@
     "name": "Software construction metaphor",
     "path": "patterns/fundamentals/construction-metaphor.md"
   },
+  "contention": {
+    "name": "Contention (α coefficient)",
+    "path": "patterns/performance-and-scalability/contention.md"
+  },
   "cqrs": {
     "name": "CQRS",
     "path": "patterns/architecture-design/cqrs.md"
@@ -78,6 +98,10 @@
   "data-partitioning": {
     "name": "Data partitioning",
     "path": "patterns/architecture-design/data-partitioning.md"
+  },
+  "data-source-patterns": {
+    "name": "Data Source Patterns",
+    "path": "patterns/architecture-design/data-source-patterns.md"
   },
   "database-as-detail": {
     "name": "Database as a Detail",
@@ -95,9 +119,21 @@
     "name": "Deployment strategy",
     "path": "patterns/production-operations/deployment-strategy.md"
   },
+  "design-for-change": {
+    "name": "Design for Change",
+    "path": "patterns/fundamentals/design-for-change.md"
+  },
   "design-in-construction": {
     "name": "Design in construction",
     "path": "patterns/fundamentals/design-in-construction.md"
+  },
+  "design-precedes-testing": {
+    "name": "Design Precedes Testing",
+    "path": "patterns/fundamentals/design-precedes-testing.md"
+  },
+  "diminishing-returns": {
+    "name": "Diminishing Returns in Scalability",
+    "path": "patterns/performance-and-scalability/diminishing-returns.md"
   },
   "distillation": {
     "name": "Distillation",
@@ -107,13 +143,25 @@
     "name": "Distributed transactions",
     "path": "patterns/advanced/distributed-transactions.md"
   },
+  "distribution-patterns": {
+    "name": "Distribution Patterns",
+    "path": "patterns/architecture-design/distribution-patterns.md"
+  },
   "domain-driven-ui": {
     "name": "Domain-Driven UI",
     "path": "patterns/architecture-design/domain-driven-ui.md"
   },
+  "domain-event-versioning": {
+    "name": "Domain Event Versioning",
+    "path": "patterns/architecture-design/domain-event-versioning.md"
+  },
   "domain-events": {
     "name": "Domain Events",
     "path": "patterns/architecture-design/domain-events.md"
+  },
+  "domain-model-vs-transaction-script": {
+    "name": "Domain Model vs Transaction Script",
+    "path": "patterns/architecture-design/domain-model-vs-transaction-script.md"
   },
   "domain-services": {
     "name": "Domain Services",
@@ -131,6 +179,10 @@
     "name": "Error Handling",
     "path": "patterns/code-quality/error-handling.md"
   },
+  "event-driven-architecture-patterns": {
+    "name": "Event-Driven Architecture Patterns",
+    "path": "patterns/architecture-design/event-driven-architecture-patterns.md"
+  },
   "event-sourcing": {
     "name": "Event Sourcing",
     "path": "patterns/architecture-design/event-sourcing.md"
@@ -146,6 +198,14 @@
   "grafana": {
     "name": "Grafana",
     "path": "tools/observability/grafana.md"
+  },
+  "gustafsons-law": {
+    "name": "Gustafson's Law",
+    "path": "patterns/performance-and-scalability/gustafsons-law.md"
+  },
+  "identifying-bottlenecks": {
+    "name": "Identifying Bottlenecks with USL",
+    "path": "patterns/performance-and-scalability/identifying-bottlenecks.md"
   },
   "incident-response": {
     "name": "Incident response",
@@ -167,6 +227,14 @@
     "name": "Layered Architecture",
     "path": "patterns/architecture-design/layered-architecture.md"
   },
+  "legacy-integration-patterns": {
+    "name": "Legacy Integration Patterns",
+    "path": "patterns/architecture-design/legacy-integration-patterns.md"
+  },
+  "linear-scalability": {
+    "name": "Linear Scalability",
+    "path": "patterns/performance-and-scalability/linear-scalability.md"
+  },
   "load-balancing": {
     "name": "Load balancing",
     "path": "patterns/architecture-design/load-balancing.md"
@@ -179,6 +247,14 @@
     "name": "Meaningful Names",
     "path": "patterns/code-quality/meaningful-names.md"
   },
+  "minimum-necessary-work": {
+    "name": "Minimum Necessary Work",
+    "path": "patterns/fundamentals/minimum-necessary-work.md"
+  },
+  "modelling-real-systems": {
+    "name": "Modelling Real Systems with USL",
+    "path": "patterns/performance-and-scalability/modelling-real-systems.md"
+  },
   "mongodb": {
     "name": "MongoDB",
     "path": "tools/databases/mongodb.md"
@@ -187,9 +263,17 @@
     "name": "Multi-region architecture",
     "path": "patterns/advanced/multi-region-architecture.md"
   },
+  "mvc-pattern-decomposition": {
+    "name": "MVC Pattern Decomposition",
+    "path": "patterns/architecture-design/mvc-pattern-decomposition.md"
+  },
   "mysql": {
     "name": "MySQL",
     "path": "tools/databases/mysql.md"
+  },
+  "object-relational-patterns": {
+    "name": "Object-Relational Patterns",
+    "path": "patterns/architecture-design/object-relational-patterns.md"
   },
   "objects-and-data-structures": {
     "name": "Objects and Data Structures",
@@ -199,6 +283,14 @@
     "name": "Observability",
     "path": "patterns/production-operations/observability.md"
   },
+  "offline-concurrency": {
+    "name": "Offline Concurrency",
+    "path": "patterns/architecture-design/offline-concurrency.md"
+  },
+  "page-controller-vs-front-controller": {
+    "name": "Page Controller vs Front Controller",
+    "path": "patterns/architecture-design/page-controller-vs-front-controller.md"
+  },
   "personal-character": {
     "name": "Personal character",
     "path": "patterns/fundamentals/personal-character.md"
@@ -207,9 +299,17 @@
     "name": "PostgreSQL",
     "path": "tools/databases/postgresql.md"
   },
+  "process-driven-architecture": {
+    "name": "Process-Driven Architecture",
+    "path": "patterns/architecture-design/process-driven-architecture.md"
+  },
   "prometheus": {
     "name": "Prometheus",
     "path": "tools/observability/prometheus.md"
+  },
+  "purpose-of-software": {
+    "name": "Purpose of Software",
+    "path": "patterns/fundamentals/purpose-of-software.md"
   },
   "queues-and-streams": {
     "name": "Queues and streams",
@@ -239,6 +339,14 @@
     "name": "Repositories",
     "path": "patterns/architecture-design/repositories.md"
   },
+  "session-state": {
+    "name": "Session State",
+    "path": "patterns/architecture-design/session-state.md"
+  },
+  "simplicity-first": {
+    "name": "Simplicity First",
+    "path": "patterns/fundamentals/simplicity-first.md"
+  },
   "software-construction": {
     "name": "Software construction",
     "path": "patterns/fundamentals/software-construction.md"
@@ -255,6 +363,10 @@
     "name": "Strategic Design",
     "path": "patterns/architecture-design/strategic-design.md"
   },
+  "superlinear-scalability": {
+    "name": "Superlinear Scalability",
+    "path": "patterns/performance-and-scalability/superlinear-scalability.md"
+  },
   "supple-design": {
     "name": "Supple Design",
     "path": "patterns/architecture-design/supple-design.md"
@@ -267,17 +379,37 @@
     "name": "Systems",
     "path": "patterns/code-quality/systems.md"
   },
+  "table-module-vs-active-record": {
+    "name": "Table Module vs Active Record",
+    "path": "patterns/architecture-design/table-module-vs-active-record.md"
+  },
+  "tactical-decision-framework": {
+    "name": "Tactical Decision Framework",
+    "path": "patterns/architecture-design/tactical-decision-framework.md"
+  },
   "testing-ddd": {
     "name": "Testing DDD",
     "path": "patterns/architecture-design/testing-ddd.md"
+  },
+  "throughput-vs-latency": {
+    "name": "Throughput vs Latency Curves",
+    "path": "patterns/performance-and-scalability/throughput-vs-latency.md"
   },
   "ubiquitous-language": {
     "name": "Ubiquitous Language",
     "path": "patterns/architecture-design/ubiquitous-language.md"
   },
+  "understanding-before-building": {
+    "name": "Understanding Before Building",
+    "path": "patterns/fundamentals/understanding-before-building.md"
+  },
   "unit-tests": {
     "name": "Unit Tests",
     "path": "patterns/code-quality/unit-tests.md"
+  },
+  "universal-scalability-law": {
+    "name": "Universal Scalability Law (USL)",
+    "path": "patterns/performance-and-scalability/universal-scalability-law.md"
   },
   "use-case-driven-design": {
     "name": "Use Case Driven Design",

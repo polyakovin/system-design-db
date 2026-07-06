@@ -55,7 +55,7 @@ Contention (α) — workers ждут друг друга (queueing). Coherency (
 
 - [Universal Scalability Law](universal-scalability-law.md)
 - [Contention](contention.md)
-- [CAP theorem](../fundamentals/cap-theorem.md)
+
 
 ## Источник
 

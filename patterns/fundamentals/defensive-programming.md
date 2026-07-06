@@ -42,12 +42,26 @@
 
 Defensive programming — это реализация принципа fail-fast на уровне отдельного модуля. На системном уровне тот же принцип проявляется в circuit breakers, input validation на API gateway и graceful degradation.
 
+## Kanat-Alexander: Design prevents bugs proactively
+
+Defensive programming catches invalid inputs at runtime. Kanat-Alexander argues for a stronger position: **good design should prevent entire classes of bugs from being possible.** This means:
+
+- Make invalid states unrepresentable (type system, enums, constrained data structures).
+- Minimize mutable state — fewer variables → fewer states → fewer bugs.
+- Keep modules small — a 50-line function has far fewer possible failure modes than a 500-line one.
+- Use explicit contracts (preconditions, postconditions, invariants) so violations are visible.
+
+Defensive programming is the last line of defense. Good design is the first. See also: [Design precedes testing](design-precedes-testing.md).
+
 ## Связанные материалы
 
 - [Managing complexity](managing-complexity.md)
 - [Debugging](debugging.md)
 - [Code quality](code-quality.md)
+- [Design precedes testing](design-precedes-testing.md) — design as primary bug prevention
+- [Simplicity First](simplicity-first.md) — simple design as proactive quality
 
 ## Источник
 
 Steve McConnell, *Code Complete* (2004), Chapter 8: Defensive Programming.
+Max Kanat-Alexander, *The Simple Elegance of Software Design* (2013) — good design prevents bugs, not just catches them.

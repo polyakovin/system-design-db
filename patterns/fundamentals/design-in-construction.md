@@ -36,13 +36,25 @@ McConnell выделяет **design in construction** как отдельный 
 
 Хороший design-in-construction замедляет первую версию, но снижает стоимость изменений на порядок. Плохой — ускоряет v1 и создаёт compounding complexity debt.
 
+## Kanat-Alexander: Understanding before building
+
+McConnell describes *how* to design during construction. Kanat-Alexander adds the prerequisite: **you cannot design well without understanding the problem first.** The understanding obligation:
+
+1. Understand what problem the user actually has (not what they *asked for*).
+2. Understand why the current system doesn't solve it.
+3. Understand how the relevant parts of the system actually work — trace the flow, don't assume.
+
+Design follows understanding, not the other way around. See also: [Understanding before building](understanding-before-building.md).
+
 ## Связанные материалы
 
 - [Software construction](software-construction.md)
 - [Managing complexity](managing-complexity.md)
 - [Working classes](working-classes.md)
 - [API design](../architecture-design/api-design.md)
+- [Understanding before building](understanding-before-building.md) — Kanat-Alexander on understanding as design prerequisite
 
 ## Источник
 
 Steve McConnell, *Code Complete* (2004), Chapter 5: Design in Construction.
+Max Kanat-Alexander, *The Simple Elegance of Software Design* (2013) — understanding before building.
