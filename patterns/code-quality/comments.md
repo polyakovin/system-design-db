@@ -51,4 +51,5 @@ added: 2026-07-06
 
 - [Meaningful Names](meaningful-names.md)
 - [Functions](functions.md)
+- [Test Architecture](test-architecture.md) — comments in tests: why, not what
 - [Clean Code](../../sources/books/clean-code.md)

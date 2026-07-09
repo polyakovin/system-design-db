@@ -134,4 +134,5 @@ Vernon's rule: 80%+ of tests should be fast domain unit tests. Integration tests
 - [Domain Services](domain-services.md) — testing stateless domain operations
 - [CQRS](cqrs.md) — testing read-model projections
 - [Event Sourcing](event-sourcing.md) — replay-based testing
+- [Test Architecture](../code-quality/test-architecture.md) — port/adapter layers, flexible fixtures, fakes over mocks
 - [Implementing Domain-Driven Design](../../sources/books/implementing-domain-driven-design.md) — глава 14 (Application), examples throughout

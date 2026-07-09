@@ -106,5 +106,6 @@ Fowler:
 - [Refactoring catalog](refactoring-catalog.md) — все техники
 - [Code smells](code-smells.md) — triggers for refactoring
 - [Unit tests](unit-tests.md) — F.I.R.S.T., TDD
+- [Test Architecture](test-architecture.md) — port/adapter layers, flexible fixtures, contract tests
 - [Emergence](emergence.md) — «Runs all the tests» как первое правило простого дизайна
 - [Refactoring (2nd ed.)](../../sources/books/refactoring-second-edition.md)

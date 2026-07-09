@@ -67,5 +67,6 @@ See also: [Minimum necessary work](../fundamentals/minimum-necessary-work.md).
 - [Unit Tests](unit-tests.md)
 - [Functions](functions.md)
 - [Code Smells](code-smells.md)
+- [Test Architecture](test-architecture.md) — test-driven emergence: tests as design system
 - [Clean Code](../../sources/books/clean-code.md)
 - [Minimum necessary work](../fundamentals/minimum-necessary-work.md) — YAGNI and simplicity from Code Simplicity

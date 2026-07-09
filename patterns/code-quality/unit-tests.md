@@ -57,4 +57,5 @@ added: 2026-07-06
 - [Functions](functions.md)
 - [Error Handling](error-handling.md)
 - [Emergence](emergence.md)
+- [Test Architecture](test-architecture.md) — flexible test layers, builders, fakes, expressive assertions
 - [Clean Code](../../sources/books/clean-code.md)

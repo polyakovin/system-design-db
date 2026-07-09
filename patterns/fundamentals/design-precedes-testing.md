@@ -73,6 +73,7 @@ Never skip step 1 because "we'll catch it in testing." Testing catches the bugs 
 - [Understanding before building](understanding-before-building.md) — understanding prevents defects
 - [Defensive programming](defensive-programming.md) — protecting code from invalid inputs
 - [Unit tests](../code-quality/unit-tests.md) — Clean Code testing practices
+- [Test Architecture](../code-quality/test-architecture.md) — flexible test design: design quality enables test quality
 - [Minimum necessary work](minimum-necessary-work.md) — less code = fewer bugs
 
 ## Source
