@@ -118,6 +118,7 @@
 - [Error handling](code-quality/error-handling.md) — exceptions over error codes, special case pattern.
 - [Boundaries](code-quality/boundaries.md) — чистые границы с third-party кодом, learning tests.
 - [Unit tests](code-quality/unit-tests.md) — F.I.R.S.T., three laws of TDD, clean test structure.
+- [Test architecture](code-quality/test-architecture.md) — port/adapter layers, test builders, fakes over mocks, comments in tests, expressive assertions.
 - [Classes](code-quality/classes.md) — организация классов, cohesion, SRP.
 - [Systems](code-quality/systems.md) — separation of main, dependency injection, scaling up.
 - [Emergence](code-quality/emergence.md) — правила простого дизайна (Kent Beck): tests, no duplication, intent, minimal.

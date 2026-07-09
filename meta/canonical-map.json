@@ -435,6 +435,10 @@
     "name": "Tactical Decision Framework",
     "path": "patterns/architecture-design/tactical-decision-framework.md"
   },
+  "test-architecture": {
+    "name": "Test Architecture",
+    "path": "patterns/code-quality/test-architecture.md"
+  },
   "testing-ddd": {
     "name": "Testing DDD",
     "path": "patterns/architecture-design/testing-ddd.md"
