@@ -2,8 +2,8 @@
 
 ## P0
 
-- [ ] Проверить remote default branch перед первым push.
-- [ ] Добавить первые external sources по ключевым книгам и статьям.
+- [x] Проверить remote default branch перед первым push.
+- [x] Добавить первые external sources по ключевым книгам и статьям.
 
 ## P1
 
