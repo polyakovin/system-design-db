@@ -11,6 +11,10 @@
 - [Latency and throughput](fundamentals/latency-and-throughput.md) — различие между скоростью ответа и пропускной способностью.
 - [Availability and reliability](fundamentals/availability-and-reliability.md) — SLO, redundancy, recovery и graceful failure.
 - [Consistency models](fundamentals/consistency-models.md) — freshness, coordination, conflicts и user-visible guarantees.
+- [Bottlenecks](fundamentals/bottlenecks.md) — идентификация узких мест в системе.
+- [Queues](fundamentals/queues.md) — асинхронная обработка, decoupling и load leveling.
+- [Indexes](fundamentals/indexes.md) — структуры данных для ускорения поиска, tradeoffs и типы.
+- [Backpressure](fundamentals/backpressure.md) — управление перегрузкой и стабильность системы.
 
 ## Architecture & Design
 

@@ -9,9 +9,15 @@
 - [MongoDB](databases/mongodb.md) — document store для flexible schema и aggregate-oriented reads.
 - [Cassandra](databases/cassandra.md) — wide-column store для high-write distributed workloads.
 
+## Storage
+
+- [Object Storage](storage/object-storage.md) — key-blob store для blobs, backups, data lakes и static assets.
+- [Search Engine](storage/search-engine.md) — full-text search, log analytics и vector search.
+
 ## Caches
 
 - [Redis](caches/redis.md) — in-memory data structure store для cache, counters, locks и queues.
+- [CDN](caches/cdn.md) — геораспределённая сеть edge-серверов для доставки контента.
 
 ## Messaging
 

@@ -43,6 +43,14 @@
     "name": "Availability and reliability",
     "path": "patterns/fundamentals/availability-and-reliability.md"
   },
+  "backpressure": {
+    "name": "Backpressure",
+    "path": "patterns/fundamentals/backpressure.md"
+  },
+  "bottlenecks": {
+    "name": "Bottlenecks",
+    "path": "patterns/fundamentals/bottlenecks.md"
+  },
   "boundaries": {
     "name": "Boundaries",
     "path": "patterns/code-quality/boundaries.md"
@@ -70,6 +78,10 @@
   "cassandra": {
     "name": "Cassandra",
     "path": "tools/databases/cassandra.md"
+  },
+  "cdn": {
+    "name": "CDN",
+    "path": "tools/caches/cdn.md"
   },
   "classes": {
     "name": "Classes",
@@ -243,6 +255,10 @@
     "name": "Incident response",
     "path": "patterns/production-operations/incident-response.md"
   },
+  "indexes": {
+    "name": "Indexes",
+    "path": "patterns/fundamentals/indexes.md"
+  },
   "kafka": {
     "name": "Kafka",
     "path": "tools/messaging/kafka.md"
@@ -307,6 +323,10 @@
     "name": "Object-Relational Patterns",
     "path": "patterns/architecture-design/object-relational-patterns.md"
   },
+  "object-storage": {
+    "name": "Object Storage",
+    "path": "tools/storage/object-storage.md"
+  },
   "objects-and-data-structures": {
     "name": "Objects and Data Structures",
     "path": "patterns/code-quality/objects-and-data-structures.md"
@@ -342,6 +362,10 @@
   "purpose-of-software": {
     "name": "Purpose of Software",
     "path": "patterns/fundamentals/purpose-of-software.md"
+  },
+  "queues": {
+    "name": "Queues in system design",
+    "path": "patterns/fundamentals/queues.md"
   },
   "queues-and-streams": {
     "name": "Queues and streams",
@@ -382,6 +406,10 @@
   "rest-architectural-style": {
     "name": "REST Architectural Style",
     "path": "patterns/architecture-design/rest-architectural-style.md"
+  },
+  "search-engine": {
+    "name": "Search Engine",
+    "path": "tools/storage/search-engine.md"
   },
   "session-state": {
     "name": "Session State",

@@ -7,9 +7,9 @@
 
 ## P1
 
-- [ ] Расширить раздел `patterns/fundamentals/` заметками про bottlenecks, queues, indexes и backpressure.
-- [ ] Добавить сравнение SQL / NoSQL / search / object storage в `patterns/architecture-design/storage-selection.md`.
-- [ ] Добавить canonical страницы для object storage, search engine и CDN.
+- [x] Расширить раздел `patterns/fundamentals/` заметками про bottlenecks, queues, indexes и backpressure.
+- [x] Добавить сравнение SQL / NoSQL / search / object storage в `patterns/architecture-design/storage-selection.md`.
+- [x] Добавить canonical страницы для object storage, search engine и CDN.
 
 ## P2
 
