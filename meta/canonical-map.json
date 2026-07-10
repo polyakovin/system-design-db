@@ -15,6 +15,10 @@
     "name": "API Design",
     "path": "patterns/architecture-design/api-design.md"
   },
+  "api-gateway": {
+    "name": "API Gateway",
+    "path": "tools/infrastructure/api-gateway.md"
+  },
   "application-controller": {
     "name": "Application Controller",
     "path": "patterns/architecture-design/application-controller.md"
@@ -227,6 +231,10 @@
     "name": "Event Sourcing",
     "path": "patterns/architecture-design/event-sourcing.md"
   },
+  "feature-flags": {
+    "name": "Feature Flags",
+    "path": "tools/infrastructure/feature-flags.md"
+  },
   "formatting": {
     "name": "Formatting",
     "path": "patterns/code-quality/formatting.md"
@@ -410,6 +418,10 @@
   "search-engine": {
     "name": "Search Engine",
     "path": "tools/storage/search-engine.md"
+  },
+  "service-mesh": {
+    "name": "Service Mesh",
+    "path": "tools/infrastructure/service-mesh.md"
   },
   "session-state": {
     "name": "Session State",

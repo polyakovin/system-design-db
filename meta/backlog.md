@@ -2,12 +2,9 @@
 
 ## Canonical pages
 
-- Object storage
-- Search engines
-- CDN
-- API gateway
-- Feature flags
-- Service mesh
+- API gateway ✅
+- Feature flags ✅
+- Service mesh ✅
 
 ## Research sources
 

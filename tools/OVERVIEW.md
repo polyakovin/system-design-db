@@ -29,6 +29,12 @@
 - [Prometheus](observability/prometheus.md) — metrics collection, alerting rules и time series.
 - [Grafana](observability/grafana.md) — dashboards и visual exploration для operational signals.
 
+## Infrastructure
+
+- [API Gateway](infrastructure/api-gateway.md) — единый ingress для микросервисов, routing, auth, rate limiting.
+- [Feature Flags](infrastructure/feature-flags.md) — toggle функциональности без деплоя, canary releases, kill switches.
+- [Service Mesh](infrastructure/service-mesh.md) — выделенный слой для межсервисного трафика, mTLS и observability.
+
 ## Как устроен раздел
 
 Каждая страница технологии отвечает на четыре вопроса:
