@@ -1,5 +1,7 @@
 # Audit Log
 
+2026-07-10 | task-4 | args: create canonical pages for api-gateway, feature-flags, service-mesh | status: ok | details: Created tools/infrastructure/ directory with 3 canonical pages (API Gateway, Feature Flags, Service Mesh), updated tools/OVERVIEW.md, regenerated canonical map, updated backlog.md, committed and pushed
+
 ## Формат записи
 
 `<timestamp> | <tool> | args: <redacted> | status: <ok|error> | details: <summary>`
